@@ -1,0 +1,36 @@
+my-blog/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   ├── components/
+│   │   ├── Header.js - done
+│   │   ├── Footer.js - done
+│   │   ├── SubmitPost.js - done
+│   │   ├── AdminDashboard.js - done
+│   │   └── BlogPosts.js - done
+│   ├── assets/
+│   │   ├── logo.svg
+│   │   └──...
+│   ├── utils/
+│   │   └── api.js
+│   ├── server.js- done
+│   └── package.json
+├── backend/
+│   ├── models/
+│   │   └── Post.js
+│   ├── controllers/
+│   │   ├── postsController.js
+│   │   └── authController.js
+│   ├── routes/
+│   │   ├── postsRoutes.js
+│   │   └── authRoutes.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├──.env
+│   └── package.json
+└── README.md
