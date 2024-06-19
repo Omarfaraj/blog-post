@@ -1,8 +1,17 @@
-function submitPost() {
+import React from 'react';
+
+const submitPost = ({onError}) => {
+    const handleSubmit = async () => {
+        try {
+            throw new Error("Submit failed");
+        } catch (error) {
+            onError(error.message);
+        }
+    }
     return (
         <form>
             <h2>Submit a New post</h2>
-            {/*form fields and submission butons here */}
+            <button onClick={handleSubmit}>Submit</button>
         </form>
     )
 }
