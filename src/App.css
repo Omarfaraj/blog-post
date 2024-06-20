@@ -1,3 +1,4 @@
+/* navbar styles */
 .navbar {
   background-color: #333;
   padding: 1em;
@@ -20,3 +21,90 @@
 .links a:hover {
   text-decoration: underline;
 }
+
+/* submit post styles */
+
+.submit-post-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.submit-post-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.submit-post-form .form-group {
+  margin-bottom: 15px;
+}
+
+.submit-post-form .form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.submit-post-form .form-input,
+.submit-post-form .form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-post-form .form-input {
+  height: 40px;
+}
+
+.submit-post-form .form-textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.submit-post-form .form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-post-form .form-button:hover {
+  background-color: #0056b3;
+}
+
+.form-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* post styles */
+
+.post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.post-title {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.post-content {
+  font-size: 16px;
+}
+
